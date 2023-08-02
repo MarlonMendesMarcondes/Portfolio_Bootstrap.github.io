@@ -1,0 +1,21 @@
+*{
+    font-family: 'Lustria', serif;        
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: black ;
+}
+header{
+    text-align: center;
+}
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo{
+    width: 100px;
+}
