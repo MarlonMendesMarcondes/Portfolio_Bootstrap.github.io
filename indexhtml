@@ -11,10 +11,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Lustria&family=Poppins:wght@300&display=swap" rel="stylesheet">
     
 </head>
+<body>
 <header>
     <div class="cabecalho">
-        <p><img class="logo" src="Imagens/logo.png" alt="Logo Padaria"></p>
-        <h1> Padaria Martonho</h1>
+        <div>
+            <img class="logo" src="Imagens/logo.png" alt="Logo Padaria">
+        </div>
+        <div>
+            <h1> Padaria Martonho</h1>
+        </div>
+        
     </div>
     <div class="link">
         <li>
@@ -22,7 +28,9 @@
         </li>
     </div>
 </header>
-<body>
-    <p></p>
+
+    <div class="background">
+        <img src="Imagens/background.png" alt="">
+    </div>
 </body>
 </html>
