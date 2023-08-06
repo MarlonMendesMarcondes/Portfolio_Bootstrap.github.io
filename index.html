@@ -14,31 +14,37 @@
 </head>
 <body class="p-3 mb-2 bg-black text-white">
 <header>
-    <nav id="Navbar" class="navbar bg-body-tertiary navbar-sticky px-3 mb-3">
-        <a class="navbar-brand" href="#Navbar">Home</a>
+    <div id="home">
+        <div data-bs-theme="dark">
+            <button type="button" class="btn-close" aria-label="Close"></button>
+            <button type="button" class="btn-close" disabled aria-label="Close"></button>
+          </div>
+    </div>
+    <nav id="Navbar" class="navbar  navbar-dark bg-dark fixed-top px-3 mb-3">
+        <a class="navbar-brand" href="#home">Home</a>
         <ul class="nav nav-pills">
           <li class="nav-item">
-            <a class="nav-link" href="#scrollspyHeading1">Apresentaçao</a>
+            <a class="nav-link active"href="#apresentacao">Apresentaçao</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#scrollspyHeading2">Produtos</a>
+            <a class="nav-link active" href="#produto">Produtos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="card-group">Sobre</a>
+            <a class="nav-link active" href="#sobre">Sobre</a>
           </li>
         </ul>
       </nav>
         
 </header>
 <main>
-    <img id="scrollspyHeading1" src="Imagens/Principal.jpg" class="img-fluid" alt="Principal">
+    <img id="apresentacao" src="Imagens/Principal.jpg" class="img-fluid" alt="Principal">
     <div  class="card-group">
-        <div id="scrollspyHeading2" class="card">
+        <div id="produto" class="card">
           <img src="Imagens/banner1.jpg" class="card-img-top" alt="banner1">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            
           </div>
         </div>
         <div class="card">
@@ -46,7 +52,7 @@
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            
           </div>
         </div>
         <div class="card">
@@ -54,11 +60,25 @@
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            
           </div>
         </div>
       </div>
+      <div id="sobre">
+        <div class="card">
+            <div class="card-header">
+              Sobre
+            </div>
+            <div class="card-body">
+                <h5 class="card-title" style="text-align: center;">História da Padaria</h5>
+                <p class="card-text">A Padaria Martonho, situada em Planaltina do Paraná, é uma tradição familiar com uma história rica. Fundada por Sr. Antonio e Sr. Marlon, apaixonados pela panificação, a padaria se tornou um ponto de encontro querido na comunidade. Seus aromas tentadores de pães frescos e doces deliciosos atraem diariamente moradores e visitantes. Além de produtos saborosos, a padaria cria um ambiente acolhedor para compartilhar histórias e construir laços.</p>
+                <p class="card-text">O mestre padeiro Sr. Antonio é conhecido por seus pães e broas impecáveis. No entanto, a padaria é mais do que comida - é um local de encontro alegre. Com uma visão inovadora, o jovem Sr. Marlon introduz uma linha de doces únicos inspirados na beleza do Paraná. Apesar de algumas dúvidas iniciais, ele conquista os clientes com suas criações excepcionais. A fama da padaria cresce, atraindo visitantes de cidades vizinhas e se transformando em um ponto turístico.</p>
+                <p class="card-text">Enfrentando desafios do sucesso, a família se une, contratando mais funcionários e mantendo a essência calorosa da padaria. A Padaria Martonho equilibra tradição e inovação, mantendo métodos antigos enquanto introduz novos sabores à coleção.</p>
+                <p class="card-text">A padaria continua a ser um local de encontro comunitário, onde sorrisos são compartilhados. A história da Padaria Martonho é uma jornada de sabor, união e amor dedicado. Até hoje, ela encanta visitantes, mantendo suas raízes enquanto se abre para novas histórias e sabores, honrando o sonho dos jovens padeiros de enriquecer sua comunidade com suas paixões.</p>
 
+            </div>
+          </div>
+      </div>
 </main>
 <footer>
     

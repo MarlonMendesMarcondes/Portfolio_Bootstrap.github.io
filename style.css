@@ -1,12 +1,8 @@
 *{
-    margin: 0px;
-    font-family: 'Lustria', serif;        
-    color: white;
-    text-decoration: none;
-    list-style: none;
+    font-family: 'Lustria', serif;
 }
-img{
-    border-radius: 10px;
+.nav-item{
+    padding: 5px;
 }
 .card{
     border-radius: 10px;
