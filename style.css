@@ -23,5 +23,9 @@
 }
 .form-check-input:focus {
     border-color: #d98e04bd!important;
-    box-shadow: 0 0 0 0.25rem #ffa70382 !important;
+    box-shadow: 0 0 0 0.25rem #0f0e0d82 !important;
+}
+
+html{
+    scroll-behavior: smooth;
 }
